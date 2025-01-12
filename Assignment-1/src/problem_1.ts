@@ -25,3 +25,4 @@ function sumOfArray(numbers: number[]): number {
   // Example usage
   const nums = [1, 2, 3, 4, 5];
   console.log(sumOfArray(nums)); // Output: 15
+  console.log(sumOfArray(nums)); // Output: 15
