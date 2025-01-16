@@ -15,3 +15,28 @@ function logValue(value: string | number) {
   }
 
   
+function logValue(value: string | number) {
+  if (typeof value === "number") {
+    console.log(value.toFixed(2)); // Works
+  } else {
+    console.log(value.toUpperCase()); // Works for string
+  }
+}
+
+function logValue(value: string | number) {
+  if (typeof value === "number") {
+    console.log(value.toFixed(2)); // Works
+  } else {
+    console.log(value.toUpperCase()); // Works for string
+  }
+}
+
+function logValue(value: string | number) {
+  if (typeof value === "number") {
+    console.log(value.toFixed(2)); // Works
+  } else {
+    console.log(value.toUpperCase()); // Works for string
+  }
+}
+
+  
